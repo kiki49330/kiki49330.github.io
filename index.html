@@ -3,27 +3,28 @@
     <head>
         <title>Écurie Mon Plaisir</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="css.css"/>
     </head>
     <body>
         <header class="container-fluid">
-            <div class="row align-items-center justify-content-center">
+            <div class="row align-items-center justify-content-center header-row">
                 <div class="col-md-4 d-flex align-items-center">
-                    <img src="Images/logo.JPG" class="img-fluid" style="border: 1px solid black; width:15em;margin-top: 5px; height: auto; box-shadow: 2.5px 2.5px 5px #000000;">
+                    <img src="Images/logo.JPG" class="img-fluid img-logo">
                 </div>
                 <div class="col-md-4 d-flex justify-content-center">
-                        <p style="font-size:250%; margin: 0;" class="Titre">     Écurie Mon Plaisir     </p>
+                        <p class="Titre">     Écurie Mon Plaisir     </p>
                 </div>
                 <div class="col-md-4 d-flex align-items-center">
                     <div class="dropdown">
                         <button class="mainmenubtn">     Menu     </button>
-                        <div class="dropdown-child">
-                            <a href="Accueil.html">Accueil</a>
-                            <a href="Prestations.html">Prestations</a>
-                            <a href="Chevaux.html">Chevaux</a>
-                            <a href="Contact.html">Contact</a>
-                        </div>
+                        <ul class="dropdown-child"> <!-- FAIRE UNE LISTE POUR SIMPLIFIER LES CASES ETC ET METTRE DES ANIM JS -->
+                            <ul><a href="Accueil.html">Accueil</a></ul>
+                            <ul><a href="Prestations.html">Prestations</a></ul>
+                            <ul><a href="Chevaux.html">Chevaux</a></ul>
+                            <ul><a href="Contact.html">Contact</a></ul>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -51,7 +52,7 @@
                                         TEST1<p/>
                                         TEST1<p/>
                                         TEST1<p/>
-                                        <button><a href="Prestations.html">JE SUIS UN BOUTON</a></button>
+                                        <button><a href="test/Accueil.html">JE SUIS UN BOUTON</a></button>
                                     </div>
                                 </div>
                                 <div class="col-md-2 d-flex align-items-center justify-content-center"></div>
@@ -109,10 +110,10 @@
                     <a href="Mentions_legales.html">Mentions legales</a>
                 </div>
                 <div class="col-md-3 d-flex justify-content-end align-items-center">
-                    <a href="https://www.google.com/maps/search/?api=1&query=Rte+de+Tierce,+49330+Étriché"><img src="./Images/maps.png" class="img-fluid" style="width:2em; height: auto;"></a>   
-                    <a href="tel:0630841864"><img src="./Images/tel.png" class="img-fluid" style="width:2em; height: auto;"></a>   
-                    <a href="mailto:--------------------------------------------------------------------------------------" target="_blank"><img src="images/email.png" class="img-fluid" style="width:2em; height: auto;"></a>   
-                    <a href="https://www.facebook.com/profile.php?id=100063357422832" target="_blank"><img src="./Images/fb_icon_325x325.png" class="img-fluid" style="width:2em; height: auto;"></a>
+                    <a href="https://www.google.com/maps/search/?api=1&query=Rte+de+Tierce,+49330+Étriché"><img src="./Images/maps.png" class="img-fluid img-footer"></a>   
+                    <a href="tel:0630841864"><img src="./Images/tel.png" class="img-fluid img-footer"></a>   
+                    <a href="mailto:--------------------------------------------------------------------------------------" target="_blank"><img src="images/email.png" class="img-fluid img-footer"></a>   
+                    <a href="https://www.facebook.com/profile.php?id=100063357422832" target="_blank"><img src="./Images/fb_icon_325x325.png" class="img-fluid img-footer"></a>
                 </div>
             </div>
             <div class="container">
