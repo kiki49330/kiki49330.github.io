@@ -134,10 +134,12 @@ a {
 @media (max-width: 767px) {
     /* Header + menu + logo + titre*/
     header {
+        height: auto;
         background-color: #BE95C4;
         box-shadow: 0px 2.5px 5px #000000;
         font-family: 'Times New Roman', Times, serif;
         position: fixed;
+        padding-bottom : 10px;
         top: 0;
         left: 0;
         display: flex;
