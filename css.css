@@ -35,7 +35,7 @@ header {
 footer {
     padding: 0.5em 0;
     margin-top: 15px;
-    height: 75px;
+    height: 80px;
     width: 100%;
     background-color: #BE95C4;
     box-shadow: 0px -2.5px 5px #000000;
@@ -64,6 +64,8 @@ a {
     background-color: #7F7F7F;
     white-space: nowrap;
     box-shadow: 2.5px 2.5px 5px #000000;
+    font-size:250%; 
+    margin: 0;
 }
 
 /*---MENU---*/
@@ -117,16 +119,73 @@ a {
     margin: 10px auto;  
 }
 
-/*---POUR-PETIT-ECRAN---*/
+.img-footer{
+    width:2em; 
+    height: auto;
+}
+
+.img-logo{
+    border: 1px solid black; 
+    width:15em;
+    margin-top: 5px; 
+    height: auto; 
+    box-shadow: 2.5px 2.5px 5px #000000;
+}
+
 @media (max-width: 767px) {
     header {
-        padding: 150;
-        height: 50%;
+        padding: 15;
+        height: 19%;
         background-color: #BE95C4;
         box-shadow: 0px 2.5px 5px #000000;
         font-family: 'Times New Roman', Times, serif;
         position: fixed;
         top: 0;
         left: 0;
+        flex-direction: column;
     }
-  }
+
+    .Titre {
+        font-size: 150%;
+    }
+
+    .dropdown {
+        right: 0;
+    }
+
+    .img-logo{
+        border: 1px solid black; 
+        width:9em;
+        margin-top: 5px; 
+        height: auto; 
+        box-shadow: 2.5px 2.5px 5px #000000;
+    }
+
+    .header-row {
+        flex-direction: column;
+    }
+    
+    .header-row img {
+        margin-bottom: 10px;
+    }
+    
+    .header-row .Titre {
+        font-size: 1.5rem;
+    }
+
+    .header-row .mainmenubtn {
+        font-size: 1.5rem;
+    }
+
+    .header-row .dropdown {
+        position: absolute;
+        right: 15px;
+        top: 20px;
+    }
+
+    .content-wrapper {
+        padding-top: 165px;
+        flex: 1;
+    }
+    
+}
