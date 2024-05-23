@@ -21,6 +21,7 @@ main {
     flex: 1;
 }
 
+/* Header */
 header {
     padding: 15;
     height: 140px;
@@ -30,6 +31,24 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+}
+.img-logo{
+    border: 1px solid black; 
+    width:15em;
+    margin-top: 5px; 
+    height: auto; 
+    box-shadow: 2.5px 2.5px 5px #000000;
+}
+.Titre {
+    border: 1px solid black;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #7F7F7F;
+    white-space: nowrap;
+    box-shadow: 2.5px 2.5px 5px #000000;
+    font-size:250%; 
+    margin: 0;
 }
 
 footer {
@@ -54,18 +73,6 @@ h2{
 a {
     color: inherit;
     text-decoration: none;
-}
-
-.Titre {
-    border: 1px solid black;
-    padding: 10px;
-    display: inline-block;
-    border-radius: 10px;
-    background-color: #7F7F7F;
-    white-space: nowrap;
-    box-shadow: 2.5px 2.5px 5px #000000;
-    font-size:250%; 
-    margin: 0;
 }
 
 /*---MENU---*/
@@ -124,15 +131,8 @@ a {
     height: auto;
 }
 
-.img-logo{
-    border: 1px solid black; 
-    width:15em;
-    margin-top: 5px; 
-    height: auto; 
-    box-shadow: 2.5px 2.5px 5px #000000;
-}
-
 @media (max-width: 767px) {
+    /* Header + menu + logo + titre*/
     header {
         padding: 15;
         height: 19%;
@@ -142,17 +142,15 @@ a {
         position: fixed;
         top: 0;
         left: 0;
+        display: flex;
         flex-direction: column;
     }
-
     .Titre {
         font-size: 150%;
     }
-
     .dropdown {
         right: 0;
     }
-
     .img-logo{
         border: 1px solid black; 
         width:9em;
@@ -160,32 +158,37 @@ a {
         height: auto; 
         box-shadow: 2.5px 2.5px 5px #000000;
     }
-
     .header-row {
         flex-direction: column;
     }
-    
     .header-row img {
         margin-bottom: 10px;
     }
-    
     .header-row .Titre {
         font-size: 1.5rem;
     }
-
     .header-row .mainmenubtn {
         font-size: 1.5rem;
     }
-
     .header-row .dropdown {
         position: absolute;
         right: 15px;
         top: 20px;
     }
 
+    /* Pour éviter que le texte soit sous le header*/
     .content-wrapper {
         padding-top: 165px;
         flex: 1;
     }
-    
+
+    /*FOOTER*/
+    .text-footer{
+        font-size: 10px;
+    }
+    .img-footer{
+        width:1.125em; 
+        height: auto;
+    }
+
 }
