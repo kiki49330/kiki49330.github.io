@@ -1,0 +1,132 @@
+html, body {
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    background-color: #E0B1CB;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+.content-wrapper {
+    padding-top: 150px;
+    flex: 1;
+}
+
+header {
+    padding: 15;
+    height: 140px;
+    background-color: #BE95C4;
+    box-shadow: 0px 2.5px 5px #000000;
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+footer {
+    padding: 0.5em 0;
+    margin-top: 15px;
+    height: 75px;
+    width: 100%;
+    background-color: #BE95C4;
+    box-shadow: 0px -2.5px 5px #000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div{
+    text-align: center;
+}
+
+h2{
+    padding: 4%;
+    padding-top: 5%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.Titre {
+    border: 1px solid black;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #7F7F7F;
+    white-space: nowrap;
+    box-shadow: 2.5px 2.5px 5px #000000;
+}
+
+/*---MENU---*/
+.mainmenubtn {
+    border: 1px solid black;
+    background-color: #7F7F7F;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding:5px;
+    border-radius: 10px;
+    font-size: 200%;
+    transition: #808080 0.3s, color 0.3s;
+    box-shadow: 2.5px 2.5px 5px #000000;
+}
+.mainmenubtn:hover {
+    background-color: #7F7F7F;
+}
+.dropdown {
+    position: absolute;
+    right: 2.5%;
+    display: inline-block;
+}
+.dropdown-child {
+    border: 1px solid black;
+    display: none;
+    background-color:#7F7F7F;
+    min-width: 200px;
+    position: absolute;
+    right: 0.1%;
+    border-radius: 3%;
+    font-size: x-large;
+    box-shadow: 2.5px 2.5px 5px #000000;
+}
+.dropdown-child a {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+/*---FIN-MENU---*/
+
+.panel {
+    border: 1px solid black;
+    background-color: #7F7F7F;
+    border-radius: 12px;
+    box-shadow: 2.5px 2.5px 5px #000000;
+    width: 100%;
+    margin: 10px auto;  
+}
+
+/*---POUR-PETIT-ECRAN---*/
+@media (max-width: 767px) {
+    header {
+        padding: 150;
+        height: 50%;
+        background-color: #BE95C4;
+        box-shadow: 0px 2.5px 5px #000000;
+        font-family: 'Times New Roman', Times, serif;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+  }
