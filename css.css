@@ -41,15 +41,23 @@ a {
     border-radius: 12px;
     box-shadow: 2.5px 2.5px 5px #000000;
     width: 100%;
-    margin: 10px auto;  
+    margin: 10px auto;
+    position: relative;
 }
-
-.text-over{
+  
+.image-container {
+    position: relative;
+    text-align: center;
+    margin-top: 2.5%;
+}
+  
+.text-over {
     position: absolute;
     left: 50%;
     top: 40%;
-    transform: translate(-50%,-50%);
-    color:white;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    color: white;
     z-index: 1;
     text-shadow: 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000;
 }
@@ -237,18 +245,6 @@ footer {
         top: 20px;
     }
     /*---Fin Header---*/
-
-    .text-over{
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        width: 80%;
-        transform: translate(-50%,-50%);
-        color:white;
-        z-index: 1;
-        font-size: 135%;
-        text-shadow: 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000, 0 0 2px #000000;
-    }
 
     .text-tel{
         font-size: 15px;
