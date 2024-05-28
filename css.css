@@ -245,7 +245,10 @@ footer {
         top: 20px;
     }
     /*---Fin Header---*/
-
+    
+    .h1-tel{
+        font-size: x-large;
+    }
     .text-tel{
         font-size: 15px;
     }
