@@ -31,7 +31,7 @@ h2{
 }
 
 a {
-    color: inherit;
+    color: black;
     text-decoration: none;
 }
 
@@ -64,6 +64,29 @@ a {
 
 .text-normal{
     font-size: 20px;
+}
+
+.btn{
+    background-color: #C0C0C0;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    padding: 5  px;
+    font-size: x-large;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover{
+    color: white;
+    background-color: #AAAAAA;
+}
+
+.btn a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /*---Header---*/
@@ -245,12 +268,34 @@ footer {
         top: 20px;
     }
     /*---Fin Header---*/
-    
+
     .h1-tel{
         font-size: x-large;
     }
+
     .text-tel{
         font-size: 15px;
+    }
+
+    .btn{
+        background-color: #C0C0C0;
+        border-radius: 5px;
+        border: 1px solid black;
+        cursor: pointer;
+        padding: 5px;
+        font-size: large;
+        color: #000000;
+        text-decoration: none;
+        text-align: center;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .btn:hover{
+        color: white;
+        background-color: #AAAAAA;
+    }
+    .btn a {
+        text-decoration: none;
+        color: inherit;
     }
 
     /*---Pour éviter que le texte soit sous le header---*/
@@ -261,7 +306,7 @@ footer {
 
     /*---Footer---*/
     .text-footer{
-        font-size: 80%;
+        font-size: 12.5px;
     }
     .img-footer{
         width:1.75em;
