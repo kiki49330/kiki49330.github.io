@@ -44,7 +44,16 @@ a {
     margin: 10px auto;
     position: relative;
 }
-  
+.panel2 {
+    border: 1px solid black;
+    background-color: #C0C0C0;
+    border-radius: 12px;
+    box-shadow: 2.5px 2.5px 5px #000000;
+    width: 90%;
+    margin: 2% auto;
+    position: relative;
+}
+
 .image-container {
     position: relative;
     text-align: center;
@@ -88,6 +97,16 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+/*---Page Contact---*/
+.contact{
+    font-size: 20px;
+}
+.img-contact{
+    width:1.5em;
+    margin-right: 5px;
+}
+/*---Fin Page Contact---*/
 
 /*---Header---*/
 header {
